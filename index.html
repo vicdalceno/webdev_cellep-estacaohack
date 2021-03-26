@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Victória Dalceno</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header" class="jumbotron text-center" style="background:rgb(145,95,238); color:white;">
+    <h1>Victória Dalceno</h1>
+    <p>Técnica em Multimídia, Engenheira Civil, Designer || São Paulo, SP</p>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <a class="navbar-brand" id="ativa" href="/index.html" style="text-decoration:none;color:white;">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul id="menu" style="margin:0px;">
+        <li id="lmenu"><a href="/prof.html">Experiência Profissional</a></li>
+        <li id="lmenu"><a href="/edu.html">Educação</a></li>
+        <li id="lmenu"><a href="/cert.html">Certificados</a></li>
+        <li id="lmenu"><a href="#volunt">Voluntariado</a></li>
+        <li id="lmenu"><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  <div id="resumo" class="container col-md-offset-1">
+    <div class="row justify-content-center align-items-center">
+      <img class="col-sm-4" id="profile" src="Profile2.jpeg" alt="Foto Victória Dalceno" width="25%;">
+      <div class="col-sm-8" id="resumot">
+        <h3>Resumo</h3>
+        <p>
+          Freelancer de design gráfico, UI/UX e web. Entusiasta de novas tecnologias e programação. Mestranda em Gestão
+          e Inovação (HEC/TUM). Engenheira civil (IFSP), com intercâmbio no Canadá. Técnica em Multimídia (LAOSP).
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="resumo" class="container mt-3">
+    <h3>Projetos</h3>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="1"></li>
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="2"></li>
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="3"></li>
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="4"></li>
+        <li data-target="#myCarousel" style="background-color: #F5B0CB;" data-slide-to="5"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item mx-auto active ">
+          <img class="d-block mx-auto" src="port\logo.png" alt="Logo Sabor de Mãe" height="400">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="port\website.jpg" alt="Website Sabor de Mãe" height="400">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="port\goldfish.png" alt="App Goldfish" height="400">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="port\tag.png" alt="Etiqueta Sabor e Mãe" height="400">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="port\healthyp.png" alt="App Healthy Pack" height="400">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="port\Mobile.jpeg" alt="Mobile Sabor de Mãe" height="400">
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" style="background-color:#F5B0CB;" href="#myCarousel" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" style="background-color:#F5B0CB;" href="#myCarousel" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="container col-md-offset-1">
+    <div class="row justify-content-center align-items-center">
+      <div id="resumo" class="col-sm-5">
+        <a href="/prof.html" id="nliks" style="text-decoration: none;color:rgb(46, 47, 47);">
+          <div id="resumot">
+            <h3>Experiências</h3>
+            <li>Analista de Suporte Jr (Axyma)</li>
+            <li>Estagiária de Operações (Nielsen)</li>
+            <li>Assistente de Pesquisa (Environment CAN)</li>
+            <li>Assistente de Marketing (Colégio Regina Mundi</li>
+            <li>Bolsista de Ensino (IFSP)</li>
+          </div>
+        </a>
+      </div>
+      <div id="resumo" class="col-sm-5">
+        <a href="/edu.html" id="nliks" style="text-decoration: none;color:rgb(46, 47, 47);">
+          <div id="resumot">
+            <h3>Educação</h3>
+            <li>Mestranda dupla em Gestão e Inovação (HEC Paris/TU München)</li>
+            <li>Bacharel em Engenharia Civil (IFSP São Paulo)</li>
+            <li>Técnica em Multimídia (Liceu de Artes e Ofícios de São Paulo)</li>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row justify-content-center align-items-center">
+      <div id="resumo" class="col-sm-5">
+        <a href="/cert.html" id="nliks" style="text-decoration: none;color:rgb(46, 47, 47);">
+          <div id="resumot">
+            <h3>Certificados</h3>
+            <li>Especialização Design UX/UI (CalArts/Coursera)</li>
+            <li>Lean 6 Sigma Yellow Belt</li>
+            <li>Fundações de Marketing Digital (Ateliê Google</li>
+            <li>Certificado de Proficiência em Inglês (Cambridge CPE)</li>
+          </div>
+        </a>
+      </div>
+      <div id="resumo" class="col-sm-5">
+        <div id="resumot">
+          <h3 id="volunt">Vountariado</h3>
+          <li>Grupos de Engajamento voluntário na Nielsen</li>
+          <li>Campanhas de Coleta na TETO</li>
+          <li>Tesoureira do Diretório Acadêmico das Engenharias e Arquitetura do IFSP</li>
+          <li>Secretária do Diretório Acadêmico das Engenharias e Arquitetura do IFSP</li>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ul id="footer" style="margin:0px;">
+    <li id="lmenu"><a href="/index.html" class="ativa" style="text-decoration:none;color:white;">Home</a></li>
+    <li id="lmenu"><a href="/prof.html">Experiência Profissional</a></li>
+    <li id="lmenu"><a href="/edu.html">Educação</a></li>
+    <li id="lmenu"><a href="/cert.html">Certificados</a></li>
+    <li id="lmenu"><a href="#volunt">Voluntariado</a></li>
+    <li id="lmenu"><a href="#contato">Contato</a></li>
+  </ul>
+
+  <div id="header" class="jumbotron text-center" style="background:rgb(145,95,238); color:white;">
+    <h1 id="contato">Victória Dalceno</h1>
+    <p>
+      <a id="links" href="https://api.whatsapp.com/send?phone=5511948274027">+55 11 94827 4027</a>
+      ||
+      <a id="links" href="victoria.dalceno@gmail.com">victoria.dalceno@gmail.com</a>
+      ||
+      <a id="links" href="https://www.linkedin.com/in/victoriadalcenojpedro/">LinkedIn</a>
+      ||
+      <a id="links" href="https://victoriadalceno.wixsite.com/portfolio">Portfólio de Design</a>
+    </p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
